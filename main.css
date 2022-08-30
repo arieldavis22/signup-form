@@ -7,6 +7,10 @@ body {
     margin: 0;
 }
 
+.left {
+    padding-left: 2rem;
+}
+
 .container {
     width: 80vw;
     height: 101vh;
@@ -24,6 +28,11 @@ body {
     height: 100%;
 }
 
+.container .image .text-over-image {
+    position: relative;
+    bottom: 80vh;
+}
+
 .container .right-side {
     padding: 10rem 0px;
     background-color: gainsboro;
@@ -35,19 +44,25 @@ body {
     width: 80%;
 }
 
+.container .right-side .bottom-text {
+    font-size: 1.4rem;
+    margin-top: 24px;
+}
+
 
 .container .right-side .box form .form-container {
-    border: 1px solid whitesmoke;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+    padding: 2rem 0 2rem 2rem;
+    margin-bottom: 24px;
+    width: auto;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    gap: 20px;
 }
 
 .container .right-side .box form div {
-    border: 1px solid green;
+    width: 45%;
     display: flex;
     flex-direction: column;
-    flex: 1 0 45%;
-    margin: 2% 0%;
 }
