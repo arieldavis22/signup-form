@@ -1,11 +1,19 @@
 :root {
-
-}
+    --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
 
 body {
     background-color: gray;
     margin: 0;
+    font-family: var(--system-ui);
 }
+
+input, textarea, select, button {
+    height : 2rem;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
 .left {
     padding-left: 2rem;
